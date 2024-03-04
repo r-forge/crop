@@ -41,22 +41,26 @@ y <- rev(x)
 postscript(file = (file <- "crop.ps"))
 plot(x, y, xlab = "x", ylab = "y")
 dev.off.crop(file = file)
+file.remove("crop.ps") # clean-up
 
 ## EPS
 setEPS() # or use onefile = FALSE, horizontal = FALSE, paper = "special" in postscript()
 postscript(file = (file <- "crop.eps"))
 plot(x, y, xlab = "x", ylab = "y")
 dev.off.crop(file = file)
+file.remove("crop.eps") # clean-up
 
 ## PDF
 pdf(file = (file <- "crop.pdf"))
 plot(x, y, xlab = "x", ylab = "y")
 dev.off.crop(file = file)
+file.remove("crop.pdf") # clean-up
 
 ## PNG with white background
 png(filename = (file <- "crop.png"))
 plot(x, y, xlab = "x", ylab = "y")
 dev.off.crop(file = file)
+file.remove("crop.png") # clean-up
 
 ## PNG with transparent background
 ## Not doable by the underlying 'mogrify' (only cropped vertically, not horizontally)
