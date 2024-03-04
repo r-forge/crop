@@ -6,9 +6,9 @@ Description: A device closing function which is able to crop graphics (e.g.,
   PDF, PNG files) on Unix-like operating systems with the required underlying
   command-line tools installed.
 Authors@R: person(given = "Marius", family = "Hofert", role = c("aut", "cre"),
-                  email = "marius.hofert@uwaterloo.ca")
+                  email = "mhofert@hku.hk")
 Author: Marius Hofert [aut, cre]
-Maintainer: Marius Hofert <marius.hofert@uwaterloo.ca>
+Maintainer: Marius Hofert <mhofert@hku.hk>
 Depends: R (>= 3.0.0)
 Imports:
 Suggests:
