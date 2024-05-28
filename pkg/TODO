@@ -1,4 +1,4 @@
-- Provide svg support (not sure how to crop; via inkscape? see
+- Provide SVG support (not sure how to crop; via inkscape? see
   https://shkspr.mobi/blog/2013/03/inkscape-cropping-svg-files-on-the-command-line/
   )
   Example:
